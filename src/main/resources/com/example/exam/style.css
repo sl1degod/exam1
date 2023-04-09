@@ -1,0 +1,11 @@
+.transparent {
+    -fx-background-color: rgba(0,0,0,0);
+}
+
+.border{
+    -fx-background-radius: 6;
+}
+
+.background {
+    -fx-background-color: #dedede;
+}

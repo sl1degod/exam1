@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: aliceblue;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.exam.Main">
+   <children>
+      <TableView fx:id="tableView" layoutY="88.0" prefHeight="413.0" prefWidth="700.0">
+        <columns>
+          <TableColumn fx:id="columnId" prefWidth="103.0" text="Id" />
+          <TableColumn fx:id="columnLogin" prefWidth="104.0" text="Login" />
+            <TableColumn fx:id="columnPassword" prefWidth="130.0" text="Password" />
+            <TableColumn fx:id="columnRole" prefWidth="136.0" text="Role" />
+            <TableColumn fx:id="columnStatus" prefWidth="126.0" text="Status" />
+        </columns>
+      </TableView>
+      <Label layoutX="216.0" layoutY="29.0" prefHeight="35.0" prefWidth="268.0" text="Список пользователей">
+         <font>
+            <Font name="Comic Sans MS" size="24.0" />
+         </font></Label>
+      <ImageView fx:id="imgUpdate" fitHeight="49.0" fitWidth="58.0" layoutX="14.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/Update-Button-Transparent-Images.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgArrow" fitHeight="49.0" fitWidth="77.0" layoutX="637.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/icons8-шеврон-вправо-64.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
